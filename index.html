@@ -50,7 +50,9 @@
         </a>
         <nav class="nav" aria-label="Sections">
           <a href="#what"><span lang="en">What it is</span><span lang="ko">소개</span></a>
-          <a href="#next"><span lang="en">Coming next</span><span lang="ko">다음 릴리스</span></a>
+          <a href="#next"
+            ><span lang="en">New in 0.0.155</span><span lang="ko">0.0.155 새 기능</span></a
+          >
           <a href="#whats-new"><span lang="en">What's new</span><span lang="ko">새 소식</span></a>
           <a href="#features"><span lang="en">Features</span><span lang="ko">기능</span></a>
           <a href="#crew">Crew</a>
@@ -90,9 +92,9 @@
       <section class="hero" id="top">
         <div class="hero-mesh" aria-hidden="true"><i></i><i></i><i></i></div>
         <div class="wrap hero-grid">
-          <a class="next-pill" href="#next" data-next-version="0.0.155">
-            <span lang="en"><b>0.0.155</b> Coming next: charts, redrawn →</span>
-            <span lang="ko"><b>0.0.155</b> 다음 릴리스: 차트가 새로 그려집니다 →</span>
+          <a class="next-pill" href="#next">
+            <span lang="en"><b>0.0.155</b> New: charts, redrawn →</span>
+            <span lang="ko"><b>0.0.155</b> 새 기능: 차트가 새로 그려집니다 →</span>
           </a>
           <p class="eyebrow">
             <span lang="en">Open source · MIT · Local-first</span>
@@ -349,15 +351,14 @@
         </div>
       </section>
 
-      <!-- Coming next (next-release preview) -->
-      <section class="section wrap" id="next" data-next-version="0.0.155">
+      <!-- New in 0.0.155 (shipped showcase) -->
+      <section class="section wrap" id="next">
         <header class="sec-head reveal">
           <p class="eyebrow">
-            <span>0.0.155</span> · <span lang="en">Coming next</span
-            ><span lang="ko">다음 릴리스 예고</span>
+            <span lang="en">New in 0.0.155</span><span lang="ko">0.0.155 새 기능</span>
             <span class="next-badge"
-              ><span lang="en">Merged · ships in the next release</span
-              ><span lang="ko">개발 완료 · 다음 릴리스에 포함</span></span
+              ><span lang="en">Released · 2026-11-10</span
+              ><span lang="ko">정식 출시 · 2026-11-10</span></span
             >
           </p>
           <h2>
@@ -1136,24 +1137,13 @@
             </p>
           </article>
         </div>
-
-        <p class="hint reveal">
-          <span lang="en"
-            >A preview shows work that is merged but not released yet, so details can still change.
-            Changes that already shipped are under <a href="#whats-new">What's new</a>.</span
-          >
-          <span lang="ko"
-            >예고는 개발은 끝났지만 아직 릴리스되지 않은 내용이라 세부 사항은 바뀔 수 있습니다. 이미
-            나온 변경은 <a href="#whats-new">새 소식</a>에 있습니다.</span
-          >
-        </p>
       </section>
 
       <!-- What's new -->
       <section class="section wrap" id="whats-new">
         <header class="sec-head reveal">
           <p class="eyebrow">
-            <span>0.0.152–0.0.154</span> · <span lang="en">What's new</span
+            <span>0.0.153–0.0.155</span> · <span lang="en">What's new</span
             ><span lang="ko">새 소식</span>
           </p>
           <h2>
@@ -1174,26 +1164,29 @@
         <div class="cards">
           <article class="card reveal">
             <p class="card-top">
-              <span class="num">0.0.152</span
-              ><span class="tag"><span lang="en">Skills</span><span lang="ko">스킬</span></span>
+              <span class="num">0.0.155</span
+              ><span class="tag"><span lang="en">Charts</span><span lang="ko">차트</span></span>
             </p>
             <h3>
-              <span lang="en">A skill from another model still runs</span
-              ><span lang="ko">다른 모델용 스킬도 그대로 실행</span>
+              <span lang="en">Charts in chat get a new renderer</span
+              ><span lang="ko">대화창 차트가 새 렌더러로 바뀝니다</span>
             </h3>
             <p>
               <span lang="en"
-                >Skills written for a different provider now run on the model you selected: OOP
-                sends the skill along with its primary model and a note on substituting tools, and
-                the composer lists each skill with where it comes from.</span
+                >Fourteen chart kinds in eight easy-to-tell-apart colours, and the terminal app uses
+                the same colours in the same order. Flowcharts use thin lines and connectors that
+                route around boxes. A thread that rose to the top of the sidebar while working stays
+                there after it finishes. Commands that end with exit 1 and no error output, such as
+                grep finding nothing, no longer show as failed.</span
               >
               <span lang="ko"
-                >다른 모델용으로 만든 스킬도 지금 선택한 모델에서 실행됩니다. OOP가 스킬 내용과 주
-                모델, 도구 대체 안내를 함께 보내고, 입력창 목록에는 각 스킬이 어느 모델의 것인지
-                함께 표시합니다.</span
+                >14가지 차트를 구분하기 쉬운 여덟 가지 색으로 그리고, 터미널 앱도 같은 색을 같은
+                순서로 씁니다. 흐름도가 가는 선과 상자를 피해 꺾이는 연결선으로 그려집니다.
+                작업하면서 사이드바 맨 위로 올라온 스레드가 작업이 끝난 뒤에도 그 자리에 남습니다.
+                grep이 아무것도 찾지 못한 경우처럼 오류 출력 없이 exit 1로 끝난 명령을 더 이상
+                실패로 표시하지 않습니다.</span
               >
             </p>
-            <code>Composer → Skills</code>
           </article>
           <article class="card reveal">
             <p class="card-top"><span class="num">0.0.153</span><span class="tag">Crew</span></p>

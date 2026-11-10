@@ -2051,7 +2051,7 @@ td {
   }
 }
 
-/* ---- Coming next (next-release preview) ---------------------------------- */
+/* ---- New in 0.0.155 (#next showcase) ------------------------------------- */
 #next {
   /* Report series colours, --c1 mirrors the app's report-1 (its primary colour). */
   --c1: var(--accent);
@@ -2079,7 +2079,7 @@ td {
   vertical-align: 1px;
 }
 
-/* Hero announcement pill for the preview; static on purpose. */
+/* Hero announcement pill for the new-release showcase; static on purpose. */
 .next-pill {
   display: inline-block;
   margin-bottom: 20px;
